@@ -166,6 +166,7 @@ body {
 ## Código JavaScript
 
 ```javascript
+//anotações incrementadas no arquivo
 const cards = document.querySelectorAll(".card");
 const scoreElement = document.getElementById("score");
 const resetButton = document.getElementById("resetButton");
@@ -176,7 +177,7 @@ let disableDeck = false;
 let score = localStorage.getItem('score') ? parseInt(localStorage.getItem('score')) : 0;
 
 function flipCard(e) {
-    let clickedCard = e.target.closest(".card"); // Garantir que o elemento clicado seja uma carta
+    let clickedCard = e.target.closest(".card"); 
     if (clickedCard !== cardOne && !disableDeck) {
         clickedCard.classList.add("flip");
         if (!cardOne) {
@@ -193,7 +194,7 @@ function flipCard(e) {
 function matchCards(img1, img2) {
     if (img1 === img2) {
         matchedCard++;
-        score += 10; // Incrementar pontuação em 10 por par encontrado
+        score += 10; 
         updateScore();
         if (matchedCard == 8) {
             setTimeout(() => {
@@ -214,7 +215,7 @@ function matchCards(img1, img2) {
             cardOne.classList.remove("shake", "flip");
             cardTwo.classList.remove("shake", "flip");
             cardOne = cardTwo = "";
-            disableDeck = false; // Resetar disableDeck aqui
+            disableDeck = false; 
         }, 1200);
     }
 }
@@ -222,7 +223,7 @@ function matchCards(img1, img2) {
 function shuffleCard() {
     matchedCard = 0;
     cardOne = cardTwo = "";
-    disableDeck = false; // Garantir que o deck não esteja desativado ao embaralhar
+    disableDeck = false; 
     let arr = [1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8];
     arr.sort(() => Math.random() > 0.5 ? 1 : -1);
 

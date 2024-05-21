@@ -99,19 +99,19 @@ body {
 .top-bar button {
     margin-top: -10px;
     margin-right: 5px;
-    width: 80px; /* Ajuste de largura para melhor visibilidade */
+    width: 80px; 
     height: 30px;
     cursor: pointer;
-    font-size: 16px; /* Ajuste de tamanho da fonte para melhor legibilidade */
+    font-size: 16px; 
     color: #ffffff;
     background-color: #393974;
     border: none;
     border-radius: 5px;
-    transition: opacity 0.3s; /* Transição suave para o efeito de opacidade */
+    transition: opacity 0.3s; 
 }
 
 .top-bar button:hover {
-    opacity: 0.7; /* Mudança de opacidade ao passar o mouse */
+    opacity: 0.7; 
 }
 
 .cards, .card, .view {

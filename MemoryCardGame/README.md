@@ -241,9 +241,9 @@ function updateScore() {
 }
 
 function resetGame() {
-    score = 0; // Resetar pontuação
+    score = 0; 
     updateScore();
-    shuffleCard(); // Embaralhar as cartas
+    shuffleCard(); 
 }
 
 resetButton.addEventListener("click", resetGame);

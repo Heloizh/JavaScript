@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #0f1011;
+}
+
+/*configurando imagem de fundo*/
+.wrapper {
+    position: relative;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(158, 155, 155, 0.3);
+}
+
+
+.tamplate {
+    background-image: url('images/img1-fundo.jpeg');
+    background-position: 0 0;
+    background-size: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: move 4s linear infinite forwards;
+}
+
+
+@keyframes move {
+    0% {
+    background-position: center 0 ;
+    }
+    100% {   
+    background-position: center 100%;
+    }
+}   
+
+
+/*configurando a nave e o fogo da nave*/
+.square-nave {
+    position: absolute;
+    bottom: 5%;
+    width: 35%;   
+}
+
+#nave {
+    z-index: 1;
+}
+
+
+/*animação do fogo da nave*/
+#fire-nave {
+    animation: blink 0.4s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/*configuração dos tiros*/
+#shots {
+    width: 25%;
+    bottom: 15%;
+    display: none;
+    animation: toappear 0.2s infinite linear;
+}
+
+@keyframes toappear {
+    0%, 100% {
+        bottom: 17%;
+    }
+    25% {
+        bottom: 30%;
+    }
+    50% {
+        bottom: 50%;
+    }
+    100% {
+        bottom: 84%;
+
+    }    
+
+}
+
+
+/*enemy*/
+.enemy {
+    position: absolute;
+    width: 25%;
+    animation: monster-animation 10s linear infinite forwards;
+} 
+
+@keyframes monster-animation {
+    from {
+     top: -25%;
+    }
+    to {
+     top: 100%;
+    }
+}
+
+/*efeito de clareamento*/
+.light-up {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.2s ease;
+}
+
+
+
+#character2 {
+    display: none;
+}
+
+#character3 {
+    display: none;
+}
+
+

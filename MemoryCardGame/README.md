@@ -1,5 +1,9 @@
 # Memory Card Game
 
+![imagem](./projeto/memorygame_01)
+
+Mais imagens e vídeos: [images](projeto)
+
 ## Descrição
 
 Este projeto é um jogo de memória simples onde o jogador deve encontrar pares de cartas correspondentes. O jogo foi desenvolvido utilizando HTML, CSS e JavaScript. O objetivo do jogo é virar duas cartas e encontrar os pares correspondentes até que todas as cartas sejam combinadas.

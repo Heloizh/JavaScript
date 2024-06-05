@@ -4,7 +4,7 @@
 
 Imagem do desenvolvimento do game-> ![Espaço Game](./projeto/spacegame_pagina_01.png)
 
-Mais imagens e vídeos + próotótipo -> [More](projeto)
+Imagens e vídeos + próotótipo -> [More](projeto)
 
 ## Descrição
 

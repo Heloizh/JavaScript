@@ -1,8 +1,8 @@
 # Memory Card Game
 
-![imagem](./projeto/memorygame_01)
+![imagem](./projeto/memorygame_01.png)
 
-Mais imagens e vídeos: [images](projeto)
+Mais imagens e vídeos: [More](projeto)
 
 ## Descrição
 

@@ -2,7 +2,9 @@
 
 # Espaço
 
-Imagem -> ![Espaço Game](./projeto)
+Imagem protótipo-> ![Espaço Game](./projeto/SpaceGame_prototipo.png)
+
+Mais imagens e vídeos -> [More](projeto)
 
 ## Descrição
 

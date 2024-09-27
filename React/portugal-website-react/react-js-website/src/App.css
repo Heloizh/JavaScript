@@ -1,0 +1,537 @@
+/* ROOT CONTAINER */
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+#root::before {
+/* Background image overlay */  
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  background-image: url(assets/homepage/lisbon_main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+/* HOME PAGE */
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 38em;
+}
+
+.homePage h1 {
+  font-size: 150px;
+  color: #4D515B;
+}
+
+/* NAVIGATION BAR */
+.navBar {
+  padding-left: 60px;
+}
+
+.navBar ul {
+  display: flex;
+  gap: 10%;
+  list-style: none;
+}
+
+.navBar a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #3c3f48;
+}
+
+.navBar a:hover {
+  color: #616673;
+}
+
+/* HISTORY PAGE */
+.historyPage {
+  display: flex;
+  padding: 40px;
+  gap: 6%;
+  align-items: start;
+}
+
+.historyPage img {
+  width: 70em;
+  border-radius: 10px;
+}
+
+/* History page text container */
+.introPageHistory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 60em;
+}
+
+
+/* CULTURE PAGE */
+.culturePage {
+  background-color: #eba94c;
+  padding-right: 25px;
+  margin-bottom: -15px;
+  margin-top: -20px;
+}
+
+.culturePage ul {
+  display: flex;
+  list-style: none;
+  gap: 11%;
+}
+
+/* Culture page image styling */
+.culturePage img {
+  width: 15em;
+  border-radius: 100px;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* List items in culture page */
+.culturePage li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.culturePage li p {
+  font-size: 13px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.culturePage li h4 {
+  font-family: 'LemonChicken';
+}
+
+.culturePage h1 {
+  margin-left: 30px;
+}
+
+/* FOODS PAGE */
+.foodPage {
+  padding: 25px;
+  display: flex;
+}
+
+.foodPage ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+
+.foodPage li {
+  /* List items in food page */  
+  display: flex;
+  gap: 5%;
+}
+
+/* Food page images */
+.foodPage img {
+  width: 25%;
+  cursor: pointer;
+  border: 2px solid;
+  border-color: #272722;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.foodPage img:hover {
+  transform: scale(1.2);
+}
+
+/* Food info container */
+.infoFoodPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+  width: 40%;
+}
+
+/* MUSIC PAGE */
+
+/* Music page container */
+.musicsPage {
+  display: flex;
+  gap: 10%;
+  font-family: 'Chakra Petch';
+  color: black;
+  background-color: #eba94c;
+}
+
+.musicsPage ul {
+  list-style: none;
+}
+
+/* Vinyl image container */
+.headerVinil {
+  width: 25em;
+  height: 32em;
+  margin-left: 10%;
+  transform: translateY(10%);
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('src/assets/musicpage/azulejoyellow.png');
+}
+
+/* Vinyl animation */
+.choseOption img {
+  width: 20em;
+  margin-top: 20px;
+  animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Title and comments container */
+.titleMusic_and_addComents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+
+.titleMusic_and_addComents i {
+  font-size: 20px;
+}
+
+/* Music Page Headers */
+.musicsHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#optionsMusicpage {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+#optionsMusicpage img {
+  /* Image styling in music options */
+  width: 10em;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#optionsMusicpage li {
+  /* Hover effect for music option list items */
+  transition: transform 0.3s ease;
+}
+
+#optionsMusicpage li:hover {
+  transform: scale(1.2);
+}
+
+/* PLAYLIST SECTIONS (HIDDEN BY DEFAULT) */
+
+#playlist h4 {
+  font-size: 20px;
+}
+
+#playlist ul {
+  margin-right: 40px;
+}
+
+#playlist li {
+  /* Styling individual playlist items */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 70%;
+  padding: 5px;
+  font-size: 20px;
+  background-color: white;
+  font-weight: 500;
+  height: 40px;
+  width: 20em;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#playlist i {
+  /* Playlist icon (e.g., delete, play, etc.) */
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+}
+
+#playlist i:hover {
+  color: #4cc1ef;
+}
+
+#playlist button {
+  background-color: transparent;
+  border: none;
+}
+
+/* ATTRACTIONS PAGE */
+/* SCROLLABLE CONTAINER FOR PLACES */
+.listPlaces {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* Hides scrollbar in IE */
+}
+
+.listPlaces::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in WebKit browsers */
+}
+
+/* ATTRACTIONS LIST */
+.attractionsPage ul {
+  display: flex;
+  width: 200em;
+  margin-top: 50px;
+  gap: 2%;
+  list-style: none;
+}
+
+/* INDIVIDUAL ATTRACTION ITEMS */
+.attractionsPage li {
+  width: 20em;
+  padding: 30px;
+  height: 30em;
+  font-size: 15px;
+  border-radius: 5%;
+  box-shadow: 10px 5px 10px rgb(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+/* ATTRACTION PAGE HEADINGS */
+.attractionsPage h2 {
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.attractionsPage p {
+  font-style: italic;
+}
+
+.attractionsPage img {
+  width: 15em;
+  border-radius: 5%;
+}
+
+/* DYNAMIC PAGE STYLING */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 101;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dynamicContainer {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  overflow-y: scroll;
+  width: 40em;
+  height: 30em;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.dynamicContainer i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.dynamicContainer button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  transform: translate(20em, 20%);
+}
+
+
+
+
+
+/* General styles for desktop are already defined above */
+
+@media only screen and (max-width: 768px) {
+  /* Adjusting the root container */
+  #root {
+    max-width: 100%;
+    padding: 0; 
+  }
+
+
+  /* Home page */
+  .homePage h1 {
+    font-size: 85px; 
+  }
+
+  /* Navigation bar */
+  .navBar ul {
+    gap: 15px; 
+    padding-left: 0;
+  }
+
+  .navBar a {
+    font-size: 10px;
+    
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  /* History page */
+  .historyPage {
+    flex-direction: column;
+    padding: 20px; 
+    gap: 20px; 
+  }
+
+ 
+  .historyPage img {
+    width: 100%;
+    height: auto; 
+  }
+
+  .introPageHistory {
+    width: 100%; 
+  }
+
+  /* Culture page */
+  .culturePage ul {
+    flex-direction: column; 
+    gap: 20px; 
+    padding-left: 25px; 
+  }
+
+
+  .culturePage img {
+    width: 100px; 
+  }
+
+  .culturePage li h4 {
+    font-size: 18px; 
+  }
+
+  /* Food page */
+  .foodPage {
+    transform: translateX(-10%);
+    flex-direction: column; 
+  }
+
+  .foodPage li { 
+    gap: 10px; 
+  }
+
+  .foodPage img {
+    width: 35%;
+  }
+
+  .infoFoodPage {
+    width: 100%; 
+    transform: translateX(10%);
+  }
+
+  /* Music page */
+  .musicsPage {
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 20px; 
+  }
+
+  .musicsHeader h1 {
+    margin-top: 10%;
+  }
+
+  .headerVinil {
+    width: 70%; 
+    height: 20em;
+    margin-left: 15%;
+  }
+
+  .headerVinil img {
+    width: 70%;
+  }
+
+  #optionsMusicpage {
+    margin-right: 10%;
+    gap: 20px; 
+  }
+
+  #optionsMusicpage img {
+    width: 160px;
+  }
+
+  /* Playlist section */
+  #playlist li {
+    width: 100%; 
+    font-size: 16px; 
+  }
+
+  /* Attractions page */
+  .attractionsPage ul {
+    gap: 20px; 
+  }
+
+  .attractionsPage li {
+    width: 100%; 
+  }
+
+
+  .attractionsPage img {
+    width: 90%;
+    height: auto;
+  }
+
+  /* Dynamic container */
+  .dynamicContainer {
+    width: 25em; 
+    height: 25em;
+    transform: translate(-50%, -50%); 
+  }
+
+  .dynamicContainer button {
+    transform: translateX(12em); 
+  }
+}

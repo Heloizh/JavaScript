@@ -4,7 +4,7 @@
 ![Imagem do projeto](./midia/culturepage.png)  
 *Descrição da imagem do projeto*
 
-[Vídeo de demonstração do projeto](./midia/portugal_site(720p).mp4)  
+[Vídeo de demonstração do projeto](./midia/portugal_site.mp4)  
 *Descrição do vídeo de demonstração*
 
 Este projeto é um website desenvolvido em React, com o objetivo de apresentar um pouco da rica cultura de Portugal. Ele foi criado para demonstrar minhas habilidades em desenvolvimento web, focando em funcionalidades e interações entre as páginas.

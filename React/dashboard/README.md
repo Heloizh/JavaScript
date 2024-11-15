@@ -1,7 +1,7 @@
 
 # Dashboard 
 
-![Dashboard Image](dashboard.png) 
+![Dashboard Image](./midia/dashboard.png) 
 ![Dashboard Image](dashboard_responsiv.png)
 
 

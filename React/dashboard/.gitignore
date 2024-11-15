@@ -7,10 +7,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Diretórios de dependências
 node_modules
+
+# Arquivos temporários ou específicos de plataforma
+*.local
+*.env
+
+# Diretórios de saída
 dist
 dist-ssr
-*.local
+build/
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +29,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Outros arquivos temporários
+.webpack/
+.next/
+.parcel-cache/

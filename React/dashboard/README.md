@@ -2,7 +2,7 @@
 # Dashboard 
 
 ![Dashboard Image](./midia/dashboard.png) 
-![Dashboard Image](dashboard_responsiv.png)
+![Dashboard Image](./midia/dashboard_responsiv.png)
 
 
 Este projeto é um **dashboard interativo** em React, criado com as tecnologias **Vite**, **Vue**, **React**, **Tailwind CSS** e **ApexCharts**. O objetivo principal deste projeto é fornecer uma visualização de dados dinâmicos e interativos, como gráficos, além de exibir informações de usuários aleatórios com base em uma API externa. Ele é **responsivo**, permitindo uma experiência de usuário otimizada em dispositivos móveis e desktop.

@@ -31,7 +31,7 @@ Sinta-se à vontade para acompanhar o progresso deste projeto!
 - [x] Layout do dashboard criado  
 - [x] Campo de navegação implementado  
 - [ ] Integração de gráficos 
-- [ ] Implementação da seção de novos cursos  
+- [x] Implementação da seção de novos cursos  
 - [ ] Funcionalidade do calendário  
 - [ ] Testes e ajustes finais  
 

@@ -1,5 +1,7 @@
 # Dashboard Educacional
 
+![Imagem do projeto](./midia/image.png)  
+
 Este projeto é um **Dashboard Educacional** em desenvolvimento. O objetivo principal do projeto é criar uma plataforma que exiba:  
 
 - **Atividades realizadas:** Para acompanhar o progresso dos usuários.  

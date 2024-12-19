@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este repositório contém uma coleção de projetos desenvolvidos utilizando HTML, CSS e JavaScript. O principal objetivo é demonstrar minhas habilidades em JavaScript através de diferentes tipos de aplicações e componentes web. Cada projeto está organizado em sua própria pasta, contendo todos os arquivos necessários para a sua execução.
+Este repositório contém uma coleção de estudos desenvolvidos utilizando HTML, CSS e JavaScript. O principal objetivo é demonstrar minhas habilidades em JavaScript através de diferentes tipos de aplicações e componentes web. Cada estudo está organizado em sua própria pasta, contendo todos os arquivos necessários para a sua execução.
 
 ## Estrutura do Repositório
 
@@ -11,7 +11,7 @@ Este repositório contém uma coleção de projetos desenvolvidos utilizando HTM
 
 ## Estrutura de Arquivos
 
-Cada projeto possui a seguinte estrutura:
+Cada estudo possui a seguinte estrutura:
 
 ```
 projeto/

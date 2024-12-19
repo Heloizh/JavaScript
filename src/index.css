@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    overflow-x: hidden;
+    background-color: #F7F7F5;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.subtitles-style {
+    display: flex;
+    font-weight: 600; 
+    font-size: 13px;  
+    color: #6b7280; 
+}
+
